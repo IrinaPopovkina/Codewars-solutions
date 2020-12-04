@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1/train/javascript
+function getAges(sum, difference){
+  if (sum < 0 || difference < 0 || sum < difference) {
+    return null;
+  }
+let a = (sum + difference) / 2;
+let b = sum - a;
+    return [a, b]
+}
