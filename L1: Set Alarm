@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/568dcc3c7f12767a62000038/train/javascript
+function setAlarm(emp, vac){
+  if (emp === true && vac === true) { 
+   return false;
+  } else if (emp === false && vac === true) {
+   return false;
+  } else if (emp === false && vac === false) {
+    return false;
+  } else if (emp === true && vac === false) {
+   return true;
+  }
+ }
