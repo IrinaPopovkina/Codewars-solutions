@@ -1,0 +1,11 @@
+// https://www.codewars.com/kata/5a651865fd56cb55760000e0/solutions/javascript
+
+var arrayLeaders = numbers => {
+  let sum = numbers.reduce((s, el) => s + el, 0),
+      arr = [];
+  for (let el of numbers){
+    sum -= el;
+    if (el > sum) arr.push(el);
+  }
+  return arr;
+}
