@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/544aed4c4a30184e960010f4/train/javascript
+function divisors(n) {
+  let arr = [];
+  for (let i = 2; i < n; i++) {
+    if (n % i === 0)
+      arr.push(i);
+  }
+  return arr.length > 0? arr: `${n} is prime`;
+}
