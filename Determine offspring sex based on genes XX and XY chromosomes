@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/determine-offspring-sex-based-on-genes-xx-and-xy-chromosomes
+function chromosomeCheck(sperm) {
+  let XX;
+  let XY;
+    if (sperm === 'XX') return "Congratulations! You're going to have a daughter.";
+    if (sperm === 'XY') return "Congratulations! You're going to have a son.";
+}
