@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/55afed09237df73343000042
+function isLucky(n) {
+  if (n === 0 || n % 9 === 0) {
+    return true;
+  } else {
+    return false;
+  }
+  
+}
