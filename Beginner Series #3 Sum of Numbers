@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/55f2b110f61eb01779000053/train/javascript
+function getSum( n,m ) {
+  let sum = 0;
+    if (n <= m) {  
+      for (let i = n; i <= m; i++) {
+        sum += i;
+      }
+    } else  if (m < n) {
+        for (let i = m; i <= n; i++) {
+        sum += i;
+     } 
+        }
+  return  n === m? n : sum;
+}
