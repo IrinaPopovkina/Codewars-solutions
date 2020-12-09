@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/57d448c6ba30875437000138
+function roots(a,b,c){
+  if (Math.pow(b, 2) - 4 * a * c < 0){
+    return null;
+  } else {
+    return +((-b + (b ** 2 - 4 * a * c) ** 0.5) / (2 * a) + (-b - (b ** 2 - 4 * a * c) ** 0.5) / (2 * a)).toFixed(2);
+  }
+}
