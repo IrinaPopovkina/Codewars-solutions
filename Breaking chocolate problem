@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/breaking-chocolate-problem
+function breakChocolate(n,m) {
+  let choc =  n * m - 1;
+    if (choc > 0) return n * m - 1;
+      if  (choc <= 0) return 0;
+}
