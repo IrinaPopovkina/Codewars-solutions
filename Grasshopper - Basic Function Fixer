@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/grasshopper-basic-function-fixer
+function addFive(num) {
+  var total = num + 5
+  return total;
+}
