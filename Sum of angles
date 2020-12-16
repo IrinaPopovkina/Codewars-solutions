@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/sum-of-angles
+function angle(n) {
+  return 180 * (n - 2)
+}
