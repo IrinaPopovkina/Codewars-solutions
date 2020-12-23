@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/return-the-closest-number-multiple-of-10
+const closestMultiple10 = num => {
+  return Math.round(num / 10) * 10;
+}
