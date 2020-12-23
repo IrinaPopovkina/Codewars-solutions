@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/discover-the-original-price
+function discoverOriginalPrice(discountedPrice, salePercentage){
+  return + (discountedPrice / (100 - salePercentage) * 100).toFixed(2) ;
+}
