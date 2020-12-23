@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/area-of-a-square
+function squareArea(A){
+  let r = A * 180 / (Math.PI * 90);
+  let s = r * r;
+    return +s.toFixed(2);
+  }
