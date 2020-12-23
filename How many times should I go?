@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/how-many-times-should-i-go
+
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice / individualPrice);
+}
