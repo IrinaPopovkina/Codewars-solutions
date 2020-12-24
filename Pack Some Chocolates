@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5f5daf1a209a64001183af9b/train/javascript
+function makeChocolates(small, big, goal) {
+  for(let i = 0; i <= small; i++){
+    for(let j = 0; j <= big; j++) {
+      if ( (j * 5) + (i * 2) === goal){
+        return i;
+      }
+    }
+  }
+    return -1;
+}
