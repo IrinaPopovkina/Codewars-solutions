@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/57d814e4950d8489720008db/train/javascript
+function index(arr, n){
+  return n < arr.length? Math.pow(arr[n], n): -1;
+}
