@@ -1,0 +1,4 @@
+https://www.codewars.com/kata/564d0490e96393fc5c000029/train/javascript
+var coinCombo = function(cents) {
+ return [Math.floor(cents % 5), Math.floor(cents % 25 % 10 / 5), Math.floor(cents % 25 / 10), Math.floor(cents / 25)];
+}                 
