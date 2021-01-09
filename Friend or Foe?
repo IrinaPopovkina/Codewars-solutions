@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/55b42574ff091733d900002f/train/javascript
+function friend(friends){
+  let arr = [];
+  for(let el of friends) {
+    if (el.length === 4) {
+      arr.push(el);
+    }
+  }
+  return arr;
+}
+
