@@ -1,6 +1,6 @@
 https://www.codewars.com/kata/582c42e0f000e54a7d000086/train/javascript
 function danspower(num, pow) {
-   let res = Math.pow(num, pow);
-    if (res % 2) res = Math.round(res / 10) * 10;
+  let res = .pow(num, pow);
+    if (res % 2) res = .round(res / 10) * 10;
       return res;
-  }
+}
