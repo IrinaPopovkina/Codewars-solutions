@@ -1,10 +1,10 @@
 https://www.codewars.com/kata/55b051fac50a3292a9000025/train/javascript
 var FilterString = function(value) {
-   let str = '';
-     for(let i = 0; i < value.length; i++) {
-       if (!isNaN(value[i])) {
-        str += value[i];
-       } 
-     }
+  let str = '';
+  for(let i = 0; i < value.length; i++) {
+    if (!isNaN(value[i])) {
+      str += value[i];
+    } 
+  }
   return +str;
 }
