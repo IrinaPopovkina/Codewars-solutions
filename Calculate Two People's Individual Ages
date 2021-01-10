@@ -3,7 +3,7 @@ function getAges(sum, difference){
   if (sum < 0 || difference < 0 || sum < difference) {
     return null;
   }
-let a = (sum + difference) / 2;
-let b = sum - a;
-    return [a, b]
+ let a = (sum + difference) / 2;
+ let b = sum - a;
+   return [a, b]
 }
