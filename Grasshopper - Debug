@@ -7,7 +7,9 @@ function weatherInfo (temp) {
       return ( c + " is above freezing temperature");
    }
 }
+
+
 function convertToCelcius (temp) {
   let celcius = (temp - 32) * (5 / 9);
-  return (celcius);
+    return (celcius);
 }
