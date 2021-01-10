@@ -5,7 +5,7 @@ var arrayLeaders = numbers => {
       arr = [];
   for (let el of numbers){
     sum -= el;
-    if (el > sum) arr.push(el);
+      if (el > sum) arr.push(el);
   }
   return arr;
 }
