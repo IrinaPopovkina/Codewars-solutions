@@ -1,12 +1,12 @@
 https://www.codewars.com/kata/5e9c06f95ea5b30033903194/train/javascript
 function howBiggaMaPizza(blob, crust) {
   let radius = blob / 2;
-    let volume = 4 / 3 * Math.pow(radius, 3);
-      let r;
-        if (crust === 'crispy') {
-          r = Math.sqrt(volume);
-        } else {
-          r = Math.sqrt(volume / 5);
-        }
-         return r;   
-}
+  let volume = 4 / 3 * .pow(radius, 3);
+  let r;
+    if (crust === 'crispy') {
+      r = .sqrt(volume);
+    } else {
+      r = .sqrt(volume / 5);
+    }
+      return r;   
+ }
