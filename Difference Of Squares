@@ -1,7 +1,6 @@
 https://www.codewars.com/kata/558f9f51e85b46e9fa000025/train/javascript
 function differenceOfSquares(n){
- 
   while (n >= 1 && n <= 100) {
-   return (((n**2) * (n + 1)**2) / 4) - (n * (n + 1) * (2*n + 1) / 6);
+    return (((n**2) * (n + 1)**2) / 4) - (n * (n + 1) * (2*n + 1) / 6);
   }
 }
