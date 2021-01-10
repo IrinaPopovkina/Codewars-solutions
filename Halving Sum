@@ -2,8 +2,8 @@ https://www.codewars.com/kata/5a58d46cfd56cb4e8600009d/train/javascript
 function halvingSum(n) {
    let sum = n;
    while (n >= 1) {
-     n = Math.trunc(n / 2);
+     n = .trunc(n / 2);
      sum += n;
-    }
-  return sum;
+   }
+   return sum;
 }
