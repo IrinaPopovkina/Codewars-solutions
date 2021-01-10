@@ -1,9 +1,9 @@
 https://www.codewars.com/kata/5810085c533d69f4980001cf/train/javascript
 function calculator(a,b,sign){
-let sum = a + b;
-let dif = a - b;
-let mult = a * b;
-let div = a / b;
+  let sum = a + b;
+  let dif = a - b;
+  let mult = a * b;
+  let div = a / b;
   switch(a, b, sign) {
     case "+": return +`${sum}`;
     case "-": return +`${dif}`;
@@ -11,5 +11,4 @@ let div = a / b;
     case "/": return +`${div}`;
     default: return 'unknown value';
   }
-
 }
