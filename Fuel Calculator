@@ -6,6 +6,6 @@ function fuelPrice(litres, pricePerLitre) {
   if (litres > 5) return +(litres * (pricePerLitre - 0.15)).toFixed(2);
   if (litres > 3) return +(litres * (pricePerLitre - 0.10)).toFixed(2);
   if (litres > 1) return +(litres * (pricePerLitre - 0.5)).toFixed(2)
-  return litres * pricePerLitre;
+    return litres * pricePerLitre;
 }
 
