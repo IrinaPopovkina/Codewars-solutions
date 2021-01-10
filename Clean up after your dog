@@ -1,12 +1,12 @@
 https://www.codewars.com/kata/57faa6ff9610ce181b000028/train/javascript
-function crap(x, bags, cap){
-  let total = bags * cap,
+function crap(x, bags, ){
+  let total = bags * ,
       sumOfCrap = 0;
-        for (let arr of x) {
-          for (let el of arr) {
-            if (el === 'D') return 'Dog!!';
-              if (el === '@') sumOfCrap++;
-         }
-          }
-  return total >= sumOfCrap ? 'Clean' : 'Cr@p';
+  for (let arr of x) {
+    for (let el of arr) {
+      if (el === 'D') return '!!';
+      if (el === '@') sumOfCrap++;
+     }
+   }
+   return total >= sumOfCrap ? 'Clean' : 'Cr@p';
 }
