@@ -1,6 +1,6 @@
 https://www.codewars.com/kata/515e188a311df01cba000003/train/javascript
 function getPlanetName(id){
-  var name;
+  let name;
   switch(id){
     case 1: return 'Mercury'
     case 2: return 'Venus'
