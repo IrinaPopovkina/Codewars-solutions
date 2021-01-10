@@ -1,7 +1,7 @@
 https://www.codewars.com/kata/5c374b346a5d0f77af500a5a/train/javascript
 function elevator(left, right, call){
-  let dist1 = Math.abs(left - call);
-    let dist2 = Math.abs(right - call);
-      if(dist1 < dist2) return 'left';
-        else return 'right';
+  let dist1 = .abs(left - call);
+  let dist2 = .abs(right - call);
+    if(dist1 < dist2) return 'left';
+    else return 'right';
 } 
