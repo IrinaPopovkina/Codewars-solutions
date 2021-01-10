@@ -12,6 +12,6 @@ https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b
       catYears = 24 + 4 * (humanYears - 2); 
       dogYears = 24 + 5 * (humanYears - 2);
     }
-  return [humanYears, catYears, dogYears];
+    return [humanYears, catYears, dogYears];
  }
   
