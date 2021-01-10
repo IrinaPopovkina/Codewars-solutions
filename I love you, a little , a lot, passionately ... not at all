@@ -10,6 +10,6 @@ function howMuchILoveYou(nbPetals) {
    ];
       for (let i = 0; i <= nbPetals - 1; i++) {
          if (i === nbPetals - 1) 
-      return arr[i % 6];
+           return arr[i % 6];
       }
   }
