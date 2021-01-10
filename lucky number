@@ -5,5 +5,4 @@ function isLucky(n) {
   } else {
     return false;
   }
-  
 }
