@@ -1,0 +1,6 @@
+
+Write typeOfArg, which accepts value as an argument and returns the value type. Use the method of q.toString.call().
+
+function typeOfArg(value){
+  return {}.toString.call(value);
+}
