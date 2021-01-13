@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/576bb71bbbcf0951d5000044/train/javascript
+
+function countPositivesSumNegatives(input) {
+  let sumNeg = 0;
+  let countPos = 0;
+  for(let el of input) {
+    if(el > 0) countPos++;
+    if(el < 0) sumNeg += el;
+  }
+  return [countPos, sumNeg];
+}
