@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/58cb43f4256836ed95000f97/train/javascript
+
+function findDifference(a, b) {
+  let mult = 1;
+  let mult2 = 1;
+  for(let i = 0; i < a.length; i++) {
+    mult *= a[i];
+    mult2 *= b[i];
+  
+  }
+  return mult2 > mult? mult2 - mult : mult - mult2;
+}
