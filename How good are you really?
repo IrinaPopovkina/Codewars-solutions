@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5601409514fc93442500010b/train/javascript
+
+function betterThanAverage(classPoints, yourPoints) {
+  let ave = 0;
+  let sum = 0;
+  for(let el of classPoints) {
+    sum += el;
+    ave = sum / classPoints.length;
+  }
+  return ave <= yourPoints ? true : false;
+}
