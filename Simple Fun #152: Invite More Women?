@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/58acfe4ae0201e1708000075/train/javascript
+
+function inviteMoreWomen(L) {
+  let countNeg = 0;
+  let countPos = 0;
+  for(let el of L) {
+    if (el < 0) countNeg++;
+    else countPos++;
+  }
+  return countNeg >= countPos? false : true;
+  
+  
+}
