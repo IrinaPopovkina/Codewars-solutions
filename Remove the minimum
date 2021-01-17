@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/563cf89eb4747c5fb100001b/train/javascript
+
+function removeSmallest(numbers) {
+  if (numbers.length == 0)  return [];
+    return numbers.filter((el, i) => i != numbers.indexOf(Math.min(...numbers)));
+}
