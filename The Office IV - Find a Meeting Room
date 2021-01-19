@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/57f604a21bd4fe771b00009c/train/javascript
+
+function meeting(arr){
+ let a;
+  for(let el of arr){
+    if(el === 'O') a = arr.indexOf(el);
+  }
+  return a === undefined ? 'None available!' : a;
+}
