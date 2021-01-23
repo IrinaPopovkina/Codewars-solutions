@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/580435ab150cca22650001fb/train/javascript
+
+var filterLucky=x=>{
+  return x = x.map(el => el + '').filter(el => el.includes('7')).map(el => +el);
+}
