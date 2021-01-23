@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5a3f4eace1ce0eeda600003d/train/javascript
+
+function swapTwo(arr, a, b) {
+  let arr1 = arr.slice()
+  let indA = arr.indexOf(a);
+  let indB = arr.lastIndexOf(b);
+  arr1[indA] = b;
+  arr1[indB] = a;
+  return arr1;
+}
