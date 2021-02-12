@@ -1,0 +1,27 @@
+https://www.codewars.com/kata/57a1fd2ce298a731b20006a4/train/javascript
+
+function isPalindrome(x) {
+  x  = x.toLowerCase();
+  let string = '';
+  for(let i = 0; i < x.length; i++) {
+    string = x[i] + string;
+  }
+  return x === string;
+}
+
+
+
+function isPalindrome(x) {
+    x  = x.toLowerCase();
+  let string = '';
+  for(let i = x.length - 1; i >= 0; i--) {
+    string = string +  x[i];
+  }
+  return x === string;
+}
+
+
+
+function isPalindrome(x) {
+  return x.toLowerCase() === x.toLowerCase().split('').reverse().join('');
+}
