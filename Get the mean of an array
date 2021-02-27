@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/563e320cee5dddcf77000158/train/javascript
+
+function getAverage(marks){
+  let sum = 0;
+  for (let el of marks) {
+    sum += el;
+    avg = sum / marks.length;
+  }
+  return Math.floor(avg);
+}
