@@ -1,0 +1,13 @@
+https://www.codewars.com/kata/5720a1cb65a504fdff0003e2/train/javascript
+
+function differenceInAges(ages){
+  let min = ages[0];
+  let max = ages[0]; let dif = max - min;
+  for(let i = 0; i < ages.length; i++) {
+    if (ages[i] < min) 
+      min = ages[i];
+    if (ages[i] > max)
+      max = ages[i];
+  }
+  return [min, max, Math.abs(max - min)];
+}
