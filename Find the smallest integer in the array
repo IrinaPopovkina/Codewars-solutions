@@ -5,3 +5,17 @@ class SmallestIntegerFinder {
     return args.length === 0? []: Math.min(...args);
   }
 }
+
+
+class SmallestIntegerFinder {
+  findSmallestInt(args) {
+    let min = args[0];
+    for(let el of args) {
+      if (el < min) {
+        min = el;
+      }
+    }
+    return min;
+ } 
+}
+
