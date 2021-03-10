@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/59bd5dc270a3b7350c00008b/train/javascript
+
+function checkTheBucket(bucket){
+  for(let el of bucket) {
+    if (el === 'gold') return true;
+  }
+  return false;
+}
