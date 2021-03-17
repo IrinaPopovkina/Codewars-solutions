@@ -1,0 +1,7 @@
+function pairs(arr){
+  let count = 0;
+  for(let i =0; i < arr.length -1; i++){      // arr.length -1 чтобы не выходить за массив
+    if((arr[i] * arr[i+1]) > 0) count++;      // если надо найти с разнми знаками ставим <0
+  }
+   return count;
+}
