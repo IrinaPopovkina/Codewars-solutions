@@ -1,0 +1,12 @@
+Get a new array, put everything first -  even, then -  all odd, without changing their order.
+
+ function evenThenOdd(arr){
+   let newArr = [];
+   for (let el of arr){
+     if (el % 2 === 0){
+       newArr.unshift(el);   
+       newArr.push(el);
+     } else {
+       return newArr;
+   }
+ }
