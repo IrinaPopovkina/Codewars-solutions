@@ -1,0 +1,9 @@
+function count(arr,number){
+  let count = 0;
+  for(let el of arr) {
+    if(el === number) {
+      count++;     
+    }
+  }
+  return count;
+}
