@@ -1,0 +1,7 @@
+function firstElementCountEven(arr){
+  for(let el of arr){
+    if(count(arr,el) % 2 === 0)
+     return el; 
+  } 
+  return null;
+}
