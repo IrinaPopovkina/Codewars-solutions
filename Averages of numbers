@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/57d2807295497e652b000139/train/javascript
+
+function averages(numbers) {
+  if (!numbers) return [];
+  let arr = [];
+  for(let i = 0; i < numbers.length - 1; i++) {
+    arr.push((numbers[i] + numbers[i + 1]) / 2);
+  }
+  return arr;
+}
