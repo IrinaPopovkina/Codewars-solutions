@@ -1,0 +1,15 @@
+https://www.codewars.com/kata/5856c5f7f37aeceaa100008e/train/javascript
+
+function baublesOnTree(baubles, branches){
+  if (branches === 0) return "Grandma, we will have to buy a Christmas tree first!";
+  let x = baubles % branches;
+  let y = Math.trunc(baubles / branches);
+  let arr = [];
+  for(let i = 0; i < branches; i++) {
+    arr[i] = y;
+  }
+  for(let j = 0; j < x; j++) {
+    arr[j]++;
+  }
+  return arr;
+}
