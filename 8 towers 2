@@ -1,9 +1,0 @@
-https://www.codewars.com/kata/535bea76cdbf50281a00004c/train/javascript
-
-function towerCombination(n){
-  let p = 1;
-  for (i = 1; i<= n; i++){
-    p = p * i;
-  }
-  return p;
-}
