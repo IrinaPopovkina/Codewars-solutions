@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/57642a90dee2da8dd3000161/train/javascript
+
+function arr2bin(arr){
+  let sum = 0;
+  for(let el of arr){
+    if(typeof el === 'number') sum = sum + el;
+  }
+  return sum.toString(2);
+}
