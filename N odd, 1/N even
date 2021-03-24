@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/605597f7276b220015b202cd/train/javascript
+
+function nole(n){
+  let p = 1;
+  for(let i = n; i > 0; i--){
+    p = p * (i % 2 ? i: (1 / i));
+  }
+  return p;
+}
