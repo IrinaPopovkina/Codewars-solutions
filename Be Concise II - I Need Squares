@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/56f4f7cfaf5b1f8cd100060e/train/javascript
+
+function squaresOnly(array) {
+ return array.filter(el => el ** 0.5 % 1 === 0)
+
+}
