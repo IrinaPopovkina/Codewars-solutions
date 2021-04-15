@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/56d93f249c844788bc000002/train/javascript
+
+function testit(s){
+  s = s.split(' ');
+  let arr = [];
+  for(let el of s) {
+    arr.push(el.slice(0, -1) + (el.slice(-1)).toUpperCase());
+  }
+  return arr.join(' ');
+}
