@@ -1,6 +1,8 @@
 https://www.codewars.com/kata/59cf805aaeb28438fe00001c/train/javascript
 
 function sum(digits) {
+ if (digits === undefined) return '' 
+  digits = digits + '';
   let sum = 0;
   let str = '';
   for(let i = 0; i < digits.length; i++) {
