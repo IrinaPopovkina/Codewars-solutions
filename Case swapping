@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/5590961e6620c0825000008f/train/javascript
+
+
+function swap(str){
+  let newStr = '';
+  for(let el of str) {
+    if (el === el.toUpperCase()) {
+      newStr += el.toLowerCase();
+    } else {
+      newStr += el.toUpperCase();
+    }
+  }
+  return newStr;
+}
