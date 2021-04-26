@@ -1,0 +1,14 @@
+https://www.codewars.com/kata/57d06663eca260fe630001cc/train/javascript
+
+function olympicRing(a){
+  let one = 'abdegopqADOPRQ';
+  let two = 'B';
+  let count = 0;
+  for(let el of a) {
+    if (one.includes(el))
+      count++;
+    if (two.includes(el))
+      count += 2;
+  }
+  count = Math.floor(count / 2);
+  return count <= 1 ? 'Not even a medal!' : count === 2 ? 'Bronze!' : count === 3 ? 'Silver!' : 'Gold!';
