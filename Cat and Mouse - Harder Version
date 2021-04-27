@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/57ee2a1b7b45efcf700001bf/train/javascript
+
+function catMouse(x, j){
+if (!x.includes("D") || !x.includes("C") || !x.includes("m")) return "boring without all three";
+let dog = x.indexOf("D");
+let cat = x.indexOf("C");
+let mouse = x.indexOf("m"); 
+if (Math.abs(cat - mouse) > j) return "Escaped!";
+if (cat < dog && dog < mouse || mouse < dog && dog < cat) return 'Protected!';
+  return "Caught!";
+}
