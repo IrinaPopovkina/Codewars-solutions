@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5ce969ab07d4b7002dcaa7a1/train/javascript
+
+function solve(s){  
+  let sufPref = [];
+  let halfLength = Math.floor(s.length / 2);
+  for(let  i = 1; i <= halfLength; i++) {
+    if (s.slice(0, i) === s.slice(-i))
+      sufPref.push(i);
+  }
+  return sufPref.length > 0 ? Math.max(...sufPref) : 0;
+}
