@@ -1,0 +1,22 @@
+https://www.codewars.com/kata/58fd52b59a9f65c398000096/train/javascript
+
+function sumOfDigits(n) {
+  let sum = 0;
+  n = n + '';
+  for(let i = 0; i < n.length; i++) {
+    sum += +n[i];
+  }
+  return sum;
+}
+
+function minAndMax(l, d, x) {
+  let arr = [];
+  let sum = 0;
+  
+  for(let i = l; i <= d; i++) {
+    if (sumOfDigits(i) === x) {
+      arr.push(i);
+    }
+  }
+  return [arr[0], arr[arr.length -1]];
+}
