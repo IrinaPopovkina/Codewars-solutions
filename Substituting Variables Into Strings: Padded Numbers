@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/51c89385ee245d7ddf000001/train/javascript
+
+function solution(value){
+  return `Value is ${(value + '').padStart(5, '0')}`;
+}
