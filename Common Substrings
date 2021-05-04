@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/5669a5113c8ebf16ed00004c/train/javascript
+
+function SubstringTest(str1, str2) {
+  str1 = str1.toLowerCase();
+  str2 = str2.toLowerCase();
+  for(let i = 0; i < str1.length - 1; i++) {
+    if(str2.includes(str1.slice(i, i + 2))) {
+      return true;
+    }
+  }
+  return false;
+}
