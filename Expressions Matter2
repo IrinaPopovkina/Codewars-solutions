@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/5ae62fcf252e66d44d00008e/train/javascript
+
+function expressionMatter(a, b, c) {
+  let first = a * (b + c);
+  let second = a * b * c;
+  let third = a + b * c;
+  let fourth = (a + b) * c;
+  let fifth = a + b + c;
+  return Math.max(first, second, third, fourth, fifth);
+}
