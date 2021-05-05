@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/5a995c2aba1bb57f660001fd/train/javascript
+
+function scrollingText(text){
+  text = text.toUpperCase();
+  let arr = [text];
+  for(let i = 1; i < text.length; i++) {
+    text = text.slice(1) + text[0];
+    arr.push(text);
+  }
+  return arr;
+}
