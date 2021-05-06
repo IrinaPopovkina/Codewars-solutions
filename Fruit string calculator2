@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/57b9fc5b8f5813384a000aa3/train/javascript
+
+function calculate(string) {
+  let [n1, n2] = string.split(' ').filter(el => !isNaN(el)).map(el => +el);
+  return string.includes('loses') ? n1 - n2 : n1 + n2;
+}
