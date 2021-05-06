@@ -4,3 +4,9 @@ function validateCode (code) {
   code = code + '';
   return '123'.includes(code[0]);
 }
+
+
+function validateCode (code) {
+  code = code + '';
+  return code[0] === '1' || code[0] === '2' || code[0] === '3' ? true : false;
+}
