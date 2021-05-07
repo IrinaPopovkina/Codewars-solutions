@@ -5,3 +5,8 @@ function toFreud(string) {
   let string1 = string.split(' ').map(el => 'sex').join(' ');
   return string1;
 }
+
+
+function toFreud(string) {
+  return string === '' ? '' : 'sex '.repeat(string.split(' ').length).trim();
+}
