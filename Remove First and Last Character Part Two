@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/570597e258b58f6edc00230d/train/javascript
+
+function array(arr){
+  if (arr.length <= 1) return null;
+  arr = arr.split(',').slice(1, -1).join(' ');
+  return arr === '' ? null : arr;
+}
