@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/559011063089b0d5500001aa/train/javascript
+
+function CalculateString( n,  nums){
+  let zeroes = n - nums.replace(/0/g, '').length;
+  let ones = n - nums.replace(/1/g, '').length;
+  return Math.abs(zeroes - ones);
+}
