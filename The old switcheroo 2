@@ -1,0 +1,11 @@
+https://www.codewars.com/kata/55d6a0e4ededb894be000005/train/javascript
+
+function swap(a) {
+  a = a.toLowerCase();
+  let alph = 'abcdefghijklmnopqrstuvwxyz';
+  return alph.includes(a) ? alph.indexOf(a) + 1 : a;
+}
+
+  function encode(str) {
+  return str.replace(/./g, swap);  
+}
