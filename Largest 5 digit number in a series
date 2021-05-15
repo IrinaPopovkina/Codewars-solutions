@@ -1,0 +1,10 @@
+https://www.codewars.com/kata/51675d17e0c1bed195000001/train/javascript
+
+function solution(digits){
+  digits = digits + '';
+  let arr = [];
+  for(let i = 0; i <= digits.length - 5; i++) {
+    arr.push(digits.slice(i, i+5));
+  }
+  return Math.max(...arr);
+}
