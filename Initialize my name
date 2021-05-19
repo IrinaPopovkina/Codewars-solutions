@@ -1,0 +1,8 @@
+https://www.codewars.com/kata/5768a693a3205e1cc100071f/train/javascript
+
+function initializeNames(name){
+  name = name.split(' ');
+  if (name.length <= 2) return name.join(' ');
+  let middle = name.slice(1, -1).map(el => el[0] + '.').join(' ');
+  return name[0] + ' ' + middle + ' ' + name[name.length -1];
+}
