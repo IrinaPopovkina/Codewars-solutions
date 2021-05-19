@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/5545f847bd94d050be00011d/train/javascript
+
+function wordSearch(word, text){
+  text = text.replace(/[,.]/g, '').split(' ');
+  return text.includes(word);
+}
