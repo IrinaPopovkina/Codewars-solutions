@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/59619e4609868dd923000041/train/javascript
+
+function totalBill(str) {
+  str = str.replace(/ /g, '');
+  let len = str.length;
+  let fives = Math.floor(len / 5);
+  let ost = len % 5;
+  return fives * 8 + ost * 2;
+}
