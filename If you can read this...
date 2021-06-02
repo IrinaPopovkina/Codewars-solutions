@@ -1,0 +1,5 @@
+https://www.codewars.com/kata/586538146b56991861000293/train/javascript
+
+function to_nato(words) {
+return words.toLowerCase().split(' ').join('').split('').map(a => NATO[a] || a).join(' ');
+}
