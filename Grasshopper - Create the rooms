@@ -1,0 +1,16 @@
+https://www.codewars.com/kata/56a29b237e9e997ff2000048/train/javascript
+
+const rooms = {
+  rooms1: { name: '',
+          description : '',
+          completed : '',
+  },
+  rooms2: { name : '',
+          description : '',
+          completed : '',
+  },
+  rooms: { name : '',
+          description : '',
+          completed : '',
+  },
+}
