@@ -1,0 +1,6 @@
+https://www.codewars.com/kata/55805ab490c73741b7000064/train/javascript
+
+let makeBackronym = function(string){
+  string = string.toUpperCase().split('').map(el => dict[el]).join(' ');
+  return string;
+}
